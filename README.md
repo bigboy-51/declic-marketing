@@ -24,6 +24,15 @@ Each skill is a directory with a `SKILL.md` file containing:
 - **Common mistakes**: What to avoid
 - **Success metrics**: How to measure
 
+## Getting Started
+
+Each skill is a directory with a `SKILL.md` file containing:
+- **Purpose**: What the skill does
+- **Framework**: The approach (before/during/after)
+- **Quality checklist**: How to validate work
+- **Common mistakes**: What to avoid
+- **Success metrics**: How to measure
+
 ## Using These Skills
 
 Invoke a skill when its domain matches your task:
@@ -37,6 +46,10 @@ Invoke a skill when its domain matches your task:
 → Uses: /design skill
 → Returns: Design system, components, specs
 ```
+
+## Agent SDK
+
+See `AGENTS.md` for the complete autonomous agent architecture that orchestrates these 8 skills into multi-step workflows. One request → Coordinated campaign with guaranteed brand coherence.
 
 ## Principles
 
@@ -55,6 +68,7 @@ See `CLAUDE.md` for full details.
 ```
 declic-marketing/
 ├── CLAUDE.md (5 pillars, operating principles)
+├── AGENTS.md (Agent SDK architecture) ✨
 ├── README.md (this file)
 └── .claude/skills/
     ├── copywriting/SKILL.md
