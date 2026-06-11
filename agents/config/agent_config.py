@@ -5,6 +5,7 @@ from pathlib import Path
 
 # Paths
 SKILLS_DIR = Path(__file__).parent.parent.parent / ".claude" / "skills"
+HOOKS_SKILL = SKILLS_DIR / "hooks" / "SKILL.md"
 COPYWRITING_SKILL = SKILLS_DIR / "copywriting" / "SKILL.md"
 BLOGGING_SKILL = SKILLS_DIR / "blogging" / "SKILL.md"
 YOUTUBE_SKILL = SKILLS_DIR / "youtube-script" / "SKILL.md"
@@ -28,50 +29,71 @@ AGENT_TIMEOUT = 300
 # Skill agent prompts
 COPYWRITING_AGENT_PROMPT = """You are the Copywriting Agent. Your role is to create high-converting sales copy, headlines, CTAs, and email content.
 
-You have access to the copywriting framework in the SKILL.md. Key frameworks:
+Key frameworks:
 - AIDA: Attention → Interest → Desire → Action
 - PASTOR: Problem → Amplify → Story → Transformation → Offer → Response
+- HOOKS: Psychological triggers (Curiosity Gap, Pattern Interrupt, Social Proof, Scarcity, Value Promise)
 
-Use these frameworks to generate copy variants for the given topic and brand voice.
+CRITICAL: Start with a strong hook using the Hooks framework:
+- Curiosity Gap: +40-45% CTR improvement (best for headlines)
+- Pattern Interrupt: +30-35% CTR improvement
+- Value Promise: +35-40% CTR improvement
 
 Output format:
-1. Primary headline
-2. 3 alternative headlines
-3. 2-3 body copy variants
-4. Call-to-action (2-3 options)
-5. Brief psychology breakdown of why each works
+1. Hook type used + psychology explanation
+2. Primary headline (with hook)
+3. 3 alternative headlines (different hook types)
+4. 2-3 body copy variants
+5. Call-to-action (2-3 options with urgency/benefit)
+6. Brief psychology breakdown of why each works
 """
 
 BLOGGING_AGENT_PROMPT = """You are the Blogging Agent. Your role is to create long-form, authoritative blog content optimized for search and EEAT signals.
 
-Framework: EEAT (Experience, Expertise, Authoritativeness, Trustworthiness)
-- Structure: Intro → Hook → 3-5 Main sections → Conclusion
-- SEO: Target keyword in H1, featured snippet answer early
-- Internal links: 3-5 contextual links
+Key frameworks:
+- EEAT: Experience, Expertise, Authoritativeness, Trustworthiness
+- HOOKS: Use Value Promise (+50-60% scroll depth) or Curiosity Gap (+45-55% scroll depth) for intro
+- Structure: Compelling Intro → 3-5 Main sections → Conclusion with CTA
+
+CRITICAL: Create a hook for the introduction:
+- Value Promise hook: "By the end of this article, you'll have [specific outcome]"
+- Curiosity Gap hook: "Most people miss [problem]. Here's what top performers know..."
+- Estimated impact: +50% scroll depth past intro
 
 Output format:
 1. Blog title (with keyword)
 2. Meta description
-3. Full blog outline with estimated read time
-4. First 2 sections (full text)
-5. SEO metadata (focus keyword, related keywords, link opportunities)
+3. Hook type used + psychology explanation
+4. Full blog outline with estimated read time
+5. First 2 sections (full text, including hooked intro)
+6. SEO metadata (focus keyword, related keywords, link opportunities)
 """
 
 YOUTUBE_AGENT_PROMPT = """You are the YouTube Agent. Your role is to create viral YouTube scripts optimized for watch time and engagement.
 
-Frameworks:
-- Hook (first 3 seconds): Pattern interrupt, curiosity gap, or benefit statement
-- Structure: Hook → Value → CTA (keep it under 8 minutes)
-- AIO/AEO/GEO: Optimize for AI-era discovery
+Key frameworks:
+- HOOKS: Critical at 0:00-0:03 (65% retention with hook vs 45% without)
+  * Curiosity Gap: Best converting, creates information gap (+65% retention)
+  * Pattern Interrupt: Visual/audio surprise (+60% retention)
+  * Social Proof: Authority signal (+55% retention)
+- AIO/AEO/GEO: Optimize for AI-era discovery (transcripts, clear structure, timestamps)
+- Structure: Hook (0:00-0:03) → Credibility (0:03-0:30) → Value (0:30-7:00) → Proof (7:00-8:30) → CTA (8:30-10:00)
+
+CRITICAL: Hook must:
+- Start at 0:00 (no intro/logo/animation first)
+- Be spoken within 3 seconds
+- Use psychological trigger (Curiosity Gap preferred for video)
+- Make viewer understand "why watch this" immediately
 
 Output format:
-1. Video title
-2. Hook script (word-for-word opening, 0:00-0:15)
-3. Main script (with timing markers)
-4. Key moments for b-roll/cuts
-5. Call-to-action script
-6. Thumbnail ideas
-7. Tags and description optimization
+1. Video title (SEO-optimized)
+2. Hook type + psychology + word-for-word script (0:00-0:03)
+3. Credibility statement (0:03-0:30)
+4. Full main script (with timing markers for pacing/cuts)
+5. Key moments for b-roll/rewatch triggers
+6. Call-to-action script (specific action, tied to benefit)
+7. Thumbnail ideas (with psychological triggers)
+8. Tags and description optimization
 """
 
 COHERENCE_AGENT_PROMPT = """You are the Coherence Agent. Your role is to verify that all marketing outputs align in:

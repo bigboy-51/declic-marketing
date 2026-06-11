@@ -24,12 +24,31 @@ class BaseAgent(ABC):
                 return f.read()
         return ""
 
-    def send_message(self, user_message: str, skill_context: str = "") -> str:
-        """Send message to Claude and get response."""
+    def add_hooks_context(self) -> str:
+        """Load Hooks framework (transversal skill)."""
+        from config.agent_config import HOOKS_SKILL
+        return self.add_skill_context(HOOKS_SKILL)
+
+    def send_message(self, user_message: str, skill_context: str = "", include_hooks: bool = True) -> str:
+        """Send message to Claude and get response.
+
+        Args:
+            user_message: The user's request
+            skill_context: Primary skill framework context
+            include_hooks: Whether to include Hooks framework (default True)
+        """
         # Combine system prompt with skill context
         full_system = self.system_prompt
+
+        # Add primary skill context
         if skill_context:
-            full_system += f"\n\nSKILL FRAMEWORK:\n{skill_context}"
+            full_system += f"\n\nPRIMARY SKILL FRAMEWORK:\n{skill_context}"
+
+        # Add Hooks framework if needed (transversal skill)
+        if include_hooks:
+            hooks_context = self.add_hooks_context()
+            if hooks_context:
+                full_system += f"\n\nTRANSVERSAL SKILL (Hooks):\n{hooks_context}"
 
         # Add user message to history
         self.conversation_history.append({
