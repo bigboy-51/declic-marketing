@@ -77,7 +77,8 @@ Text on image: White with dark shadow (readable)
 
 ## Design System (Template)
 
-### Color System
+### Color System (WCAG 2.2 Compliant)
+
 ```
 Primary (Trust, Action): #2563EB (Blue)
 Secondary (Growth): #10B981 (Green)
@@ -86,6 +87,11 @@ Text (Dark): #1F2937
 Background (Light): #F3F4F6
 Border (Subtle): #E5E7EB
 ```
+
+**Accessibility Requirements:**
+- All colors must pass **4.5:1 contrast ratio** (text readability)
+- Don't rely on color alone (use text labels + color)
+- **Dark mode support**: Same palette with adjusted contrast for dark background
 
 **Usage Rules:**
 - Primary: CTAs, headers, key UI
@@ -244,25 +250,46 @@ Colors: Use system colors only
 
 ---
 
-## Accessibility (Non-Negotiable)
+## Accessibility: WCAG 2.2 Compliance (Required by Law in Many Regions)
 
-- **Color contrast**: Text 4.5:1 ratio (dark on light)
-- **Touch targets**: 44px minimum (mobile clicks)
-- **Text size**: 16px minimum (readability)
+**Core Requirements:**
+- **Color contrast**: 4.5:1 ratio for normal text, 3:1 for large text (WCAG AA minimum)
+- **Touch targets**: 44px minimum height (mobile accessibility)
+- **Text size**: 16px minimum (default readability)
 - **Alt text**: Every image described for screen readers
-- **Labels**: Every input field has a label
-- **Motion**: Avoid flashy animations (can cause seizures)
+- **Labels**: Every input field has explicit label
+- **Keyboard navigation**: Tab through all interactive elements
+- **Motion**: Avoid flashy animations (seizure risk)
+- **Focus indicators**: Clear visible focus state on buttons/links
+- **Form errors**: Clear error messages linked to fields
+- **Page structure**: Proper heading hierarchy (H1 → H2 → H3)
+
+**Design System Implications:**
+- Build with accessibility-first approach (not afterthought)
+- Test with screen readers (NVDA, JAWS)
+- Test with keyboard-only navigation
+- Check contrast ratios before shipping
+- Document accessibility features in design system
 
 ---
 
-## Success Metrics
+## Success Metrics (2026 Standards)
 
-Your design is working if:
-- Users know what to do in < 3 seconds
-- CTAs get > 2% click rate
-- Mobile usability score > 90
-- Accessibility score > 90
-- Brand recognition (visual consistency)
+**Your design system is working if:**
+- **Usability**: Users know what to do in < 3 seconds
+- **CTAs**: Get > 2% click rate
+- **Mobile usability**: Score > 90 (Google PageSpeed)
+- **Accessibility**: WCAG 2.2 AA compliant, score > 90
+- **Brand recognition**: 90%+ visual consistency across touchpoints
+- **Performance**: Lightweight assets, optimized rendering
+- **Scalability**: New features added without breaking system
+- **Dark mode**: Proper contrast ratios in both light/dark
+
+**Scalable Design System Success:**
+- Reusable component library (buttons, cards, inputs)
+- Design tokens (colors, spacing, typography)
+- Clear documentation for new team members
+- Version control and changelog (what changed when)
 
 ---
 

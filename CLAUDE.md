@@ -101,6 +101,37 @@ Task: "Create a sales page for Declic Premium"
 
 ---
 
+## 2026 Best Practices (Evidence-Based)
+
+These skills are informed by validated 2026 practices:
+
+**Copywriting:** AIDA/PASTOR frameworks, first-person CTAs (+90% clicks), clarity = 23% conversion boost
+
+**YouTube:** 65% retention with 3-second hooks, rewatch moments drive algorithm, 3-5 shorts/week optimal
+
+**Branding:** One differentiator (not multiple), CX consistency = +20% revenue, clarity > volume
+
+**Funnel:** Benchmarks (3.1% avg / 6.8% top quartile / 9.2% elite), quiz-based 40% conversion, AI-personalized +87%
+
+**Blogging:** EEAT signals, topical authority (not single keywords), engagement time (not bounce rate)
+
+**Design:** WCAG 2.2 compliance mandatory, accessibility-first, scalable component systems, dark mode required
+
+---
+
+## Cross-Skill Coherence
+
+These skills work together:
+
+1. **Branding** defines the voice → **Copywriting** executes it
+2. **Funnel** strategy defines journey → **YouTube/Blogging** fill awareness
+3. **Design** system supports all → Consistent visuals everywhere
+4. **Funnel** metrics validate → All other skills contribute to conversion
+
+Test coherence: Could a customer recognize your brand across copywriting + design + video + blog?
+
+---
+
 ## Reference
 
 These principles are distilled from:

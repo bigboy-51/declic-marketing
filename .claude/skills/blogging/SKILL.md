@@ -26,7 +26,7 @@ If you can't articulate these, the article won't work.
 
 ---
 
-## The Blog Formula
+## The Blog Formula (with EEAT + Topical Authority)
 
 ### Headline Structure
 ```
@@ -35,6 +35,14 @@ If you can't articulate these, the article won't work.
 ❌ "Investment Tips"
 ✅ "How to Make $50K Passive Income: The Data-Driven Portfolio Strategy"
 ```
+
+### 2026 Ranking Factors: The Trinity
+
+1. **Technical Performance** (Core Web Vitals)
+2. **Content Depth** (topical authority, not single keywords)
+3. **EEAT** (Experience, Expertise, Authoritativeness, Trustworthiness)
+
+Focus on covering ENTIRE TOPICS in depth, not just ranking for single keywords. Google rewards structured content ecosystems that show topical authority.
 
 ### Article Structure (Golden Path)
 
@@ -106,12 +114,33 @@ Links: 3-5 internal links, 2-3 external (authoritative sources)
 Images: Alt text includes keywords
 ```
 
-### Structure for Scanning
+### Structure for Scanning (Featured Snippet Optimization)
+
 - Short paragraphs (2-3 sentences max)
 - Bolded key phrases
 - Bullet points over paragraphs
-- Headers every 300 words
+- Headers every 300 words (include secondary keywords)
 - One visual per 500 words
+- **Summary sections** (extractable for featured snippets)
+- **Clear definitions** (helps AI extract content)
+
+---
+
+## 2026 SEO Metrics to Track (Not Vanity Metrics)
+
+**Stop tracking:**
+- Bounce rate (replaced by engagement time in GA4)
+
+**Start tracking:**
+- **Organic traffic** (actual visitors)
+- **Average engagement time** (honest attention metric)
+- **Conversions** (revenue-tied goal completions)
+- **Core Web Vitals** (LCP, INP, CLS - ranking factors)
+- **Keyword rankings** (but focus on topics, not keywords)
+- **Referring domains** (backlink authority)
+- **SERP feature visibility** (featured snippets, knowledge panel)
+
+**Planning approach:** Quarterly planning balances long-term strategy with tactical execution. This prevents reactive scrambling.
 
 ---
 
@@ -186,15 +215,21 @@ Example: "Why Your Financial Advisor Is Costing You $50K (And What To Do Instead
 
 ---
 
-## Success Metrics
+## Success Metrics (2026 Standards)
 
-Your blog is working if:
-- 500+ organic visits/month per post (in first 6 months)
-- Average time on page > 2:30 seconds
-- Bounce rate < 60%
-- Click-through to CTA > 2%
-- Social shares > 10 per post
-- Inbound links from other sites
+**Your blog is working if:**
+- **Organic traffic**: 500+ monthly visits per post (6 months in)
+- **Engagement time**: > 2:30 minutes average (GA4 metric)
+- **Click-through to CTA**: > 2%
+- **Social shares**: > 10 per post
+- **Inbound links**: At least 3 backlinks per important post
+- **Conversion rate**: Blog → email signup > 5%
+- **SERP features**: Appearing in featured snippets (if target keyword has one)
+
+**Topical Authority Signal:**
+- Writing 5+ related posts on same topic
+- Internal linking between them (topical clusters)
+- Consistent EEAT signals (author bio, credentials, sources)
 
 ---
 

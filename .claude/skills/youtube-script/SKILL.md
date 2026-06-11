@@ -25,7 +25,9 @@ Create scripts and strategies for YouTube videos that hook viewers in the first 
 
 ---
 
-## The Hook: First 3 Seconds
+## The Hook: First 3 Seconds (Critical)
+
+**Research shows:** Videos with strong hooks retain 65% of viewers through minute 3. Without hook, retention drops below 45%.
 
 Your video dies in the first 3 seconds if:
 - Generic intro ("Hey guys, welcome...")
@@ -33,8 +35,9 @@ Your video dies in the first 3 seconds if:
 - "Thanks for watching!"
 - Unclear what they'll learn
 - Slow speaking pace
+- Talking while static
 
-### Hook Framework
+### Hook Framework (Must Start Immediately)
 
 ```
 [Curiosity Gap] + [Promise] + [Why Now]
@@ -109,6 +112,18 @@ Call-To-Action (8:30 - 10:00)
 - Pause between ideas (1 second)
 - Vary tone (question → statement → reveal)
 - No filler words (um, uh, like, you know)
+
+### Retention Targets (2026 Standards)
+
+**First 60 seconds:** Maintain 50% median retention for short-to-mid form, 40%+ for long-form intros.
+
+**Create Rewatch Moments:** Include a moment too fast to catch on first view (detailed chart, hidden detail, rapid montage). Rewatches = #1 algorithm signal.
+
+### Posting Strategy for Algorithm
+
+- **Shorts**: 3-5 per week (algorithm prioritizes volume)
+- **Long-form**: 1-2 per week (quality > quantity here)
+- Post timing: When your audience is most active
 
 ### Format (Ready for Director)
 
@@ -231,14 +246,21 @@ Mark these for your editor:
 
 ---
 
-## Success Metrics
+## Success Metrics (2026 Benchmarks)
 
 Your videos are working if:
-- Watch time > 4 minutes average (for 10-min video)
-- Click-through rate on thumbnail > 4%
-- Share rate > 2%
-- Subscriber growth > 5% month-over-month
-- Call-to-action click rate > 3%
+- **Retention rate**: 50%+ at 60-second mark (first video), 40%+ (introductions)
+- **Watch time**: > 4 minutes average (for 10-minute video)
+- **Click-through rate (CTR)**: > 4% on thumbnail
+- **Share rate**: > 2%
+- **Subscriber growth**: > 5% month-over-month
+- **Call-to-action click rate**: > 3%
+
+**Key Performance Levers (Priority Order):**
+1. Retention (audience satisfaction)
+2. Thumbnail quality (CTR driver)
+3. Shorts distribution (algorithm favorite)
+4. Conversion funnel (tied to business goal)
 
 ---
 

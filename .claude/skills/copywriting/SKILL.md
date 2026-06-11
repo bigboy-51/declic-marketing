@@ -14,7 +14,7 @@ keywords:
 ## Purpose
 Create persuasive marketing copy that converts readers into customers or engaged prospects.
 
-## The Framework: BFPS
+## The Framework: BFPS + Proven Conversion Frameworks
 
 Before writing ANY copy, stop and answer these questions:
 
@@ -43,6 +43,32 @@ Before writing ANY copy, stop and answer these questions:
 
 ---
 
+## Proven Conversion Frameworks
+
+### AIDA Model
+**Attention → Interest → Desire → Action**
+- **Attention**: Dramatic opening that stops scrolling
+- **Interest**: Fresh/interesting information (why read further?)
+- **Desire**: Target emotional or psychological reasoning
+- **Action**: Clear, specific call-to-action
+
+### PASTOR Model (For Deeper Connection)
+**Problem → Amplify → Story → Testimony → Offer → Response**
+- **Problem**: Name it in customer's language
+- **Amplify**: Show consequences of inaction
+- **Story**: Relatable narrative (case study or example)
+- **Testimony**: Proof from similar customers
+- **Offer**: Clear value proposition
+- **Response**: Specific action with urgency
+
+### Framework Stacking (Advanced)
+Layer multiple frameworks in one piece:
+- Open with AIDA's attention hook
+- Move through PASTOR's problem-amplification
+- Close with clear offer and CTA
+
+---
+
 ## Before You Write
 
 **Challenge yourself:**
@@ -62,6 +88,8 @@ Before writing ANY copy, stop and answer these questions:
 
 ❌ "Declic Financier - Your Financial Platform"
 ✅ "Make 50K in passive income this year - Financial professionals trust Declic"
+
+💡 TIP: Clarity = 23% higher conversion. Avoid jargon. Name the problem first, not the solution.
 ```
 
 ### Email Subject Line
@@ -71,6 +99,10 @@ Max 50 characters. Formula: [Curiosity] or [Benefit] or [Urgency]
 ❌ "New Feature Release"
 ✅ "Investors reveal: their $50K portfolio mistake"
 ✅ "You're missing 62% in returns (here's why)"
+
+💡 KEY FINDING: Use first-person language in CTA text.
+  ❌ "Start Your Free Trial"
+  ✅ "Start My Free Trial" (+90% click increase)
 ```
 
 ### Social Media Post
@@ -97,9 +129,25 @@ CTA: "Start Free Trial →"
 
 ---
 
+## Simplicity Rule: Write Like a 5th Grader
+
+2026 research shows audiences instantly calculate cognitive load. High complexity = instant scroll. 
+
+**Apply ruthlessly:**
+- Short sentences (< 15 words)
+- One idea per sentence
+- No corporate jargon without explanation
+- Replace "leverage" with "use" or "take advantage of"
+- Replace "facilitate" with "help" or "enable"
+
+Brands with clear messaging convert 23% better than vague, jargon-heavy copy.
+
+---
+
 ## Quality Checklist
 
 **Before submitting copy:**
+- [ ] **Simplicity test**: Could a 5th grader understand this?
 - [ ] **Clarity test**: Read aloud. Any sentence confusing? Cut it.
 - [ ] **Specificity test**: Replace all adjectives with numbers. ("Soon" → "In 48 hours")
 - [ ] **Urgency test**: Does the reader know what to do next? One clear action?
@@ -107,6 +155,7 @@ CTA: "Start Free Trial →"
 - [ ] **Voice test**: Sounds like Declic (professional, approachable, helpful)
 - [ ] **Length test**: Can I cut 25% and keep the punch?
 - [ ] **Conversion test**: Every sentence moves toward the goal
+- [ ] **CTA test**: Use first-person language ("Start My Trial" not "Start Your Trial")
 
 ---
 
