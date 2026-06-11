@@ -9,9 +9,10 @@ Built with **Karpathy-style pedagogy**: Think deeply, simplify ruthlessly, make 
 1. **Copywriting** — High-converting sales copy, emails, ads
 2. **Branding** — Brand identity, tone, visual guidelines
 3. **Blogging** — Long-form content, SEO, authority
-4. **YouTube Script** — Video scripts, hooks, editing strategy
-5. **Funnel** — Marketing funnel strategy, conversion optimization
-6. **Design** — Visual systems, design principles, assets
+4. **YouTube Script** — Video scripts, hooks, editing, AIO/AEO/GEO optimization
+5. **SEO/AIO** — AI-era visibility: Google + ChatGPT + Perplexity + Claude
+6. **Funnel** — Marketing funnel strategy, conversion optimization
+7. **Design** — Visual systems, design principles, assets
 
 ## Getting Started
 
@@ -59,6 +60,7 @@ declic-marketing/
     ├── branding/SKILL.md
     ├── blogging/SKILL.md
     ├── youtube-script/SKILL.md
+    ├── seo-aio/SKILL.md
     ├── funnel/SKILL.md
     └── design/SKILL.md
 ```

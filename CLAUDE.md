@@ -67,7 +67,8 @@ Each skill follows these principles:
 - **Copywriting** — Sales copy, emails, ads for Declic products
 - **Branding** — Brand identity, tone, visual guidelines
 - **Blogging** — Long-form content, SEO, audience engagement
-- **YouTube Script** — Video scripts, editing strategy, hooks
+- **YouTube Script** — Video scripts, editing strategy, hooks, AIO/AEO/GEO optimization
+- **SEO/AIO** — AI optimization (AIO/AEO/GEO), discoverable across Google + ChatGPT + LLMs
 - **Funnel** — Marketing funnel strategy, conversion paths
 - **Design** — Visual direction, design systems, asset creation
 
@@ -113,7 +114,11 @@ These skills are informed by validated 2026 practices:
 
 **Funnel:** Benchmarks (3.1% avg / 6.8% top quartile / 9.2% elite), quiz-based 40% conversion, AI-personalized +87%
 
-**Blogging:** EEAT signals, topical authority (not single keywords), engagement time (not bounce rate)
+**Blogging:** EEAT signals, topical authority (not single keywords), engagement time (not bounce rate), AIO/AEO/GEO optimization
+
+**YouTube:** 65% retention with 3-second hooks, AIO/AEO/GEO for AI discovery, rewatch moments drive algorithm
+
+**SEO/AIO:** AIO (AI understands), AEO (answers questions), GEO (citable by LLMs) across Google + ChatGPT
 
 **Design:** WCAG 2.2 compliance mandatory, accessibility-first, scalable component systems, dark mode required
 
@@ -124,11 +129,23 @@ These skills are informed by validated 2026 practices:
 These skills work together:
 
 1. **Branding** defines the voice → **Copywriting** executes it
-2. **Funnel** strategy defines journey → **YouTube/Blogging** fill awareness
-3. **Design** system supports all → Consistent visuals everywhere
-4. **Funnel** metrics validate → All other skills contribute to conversion
+2. **Funnel** strategy defines journey → **YouTube/Blogging/SEO** fill awareness
+3. **SEO/AIO** ensures visibility across Google + AI systems → Supports all content
+4. **Design** system supports all → Consistent visuals everywhere
+5. **Funnel** metrics validate → All other skills contribute to conversion
 
-Test coherence: Could a customer recognize your brand across copywriting + design + video + blog?
+**AI-Era Visibility Chain:**
+```
+Blogging (SEO/AIO) 
+  ↓ Answer questions directly (AEO)
+YouTube (AIO/AEO/GEO)
+  ↓ Be citable by ChatGPT/Claude (GEO)
+SEO/AIO Strategy
+  ↓ Govern all content structure
+Result: Visible across Google + ChatGPT + Perplexity + Claude
+```
+
+Test coherence: Could a customer recognize your brand across copywriting + design + video + blog + AI discovery?
 
 ---
 

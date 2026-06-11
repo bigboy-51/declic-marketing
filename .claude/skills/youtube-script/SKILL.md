@@ -12,7 +12,41 @@ keywords:
 # YouTube Script Skill
 
 ## Purpose
-Create scripts and strategies for YouTube videos that hook viewers in the first 3 seconds and deliver value that builds loyal subscribers.
+Create scripts and strategies for YouTube videos that:
+1. Hook viewers in the first 3 seconds
+2. Deliver value that builds loyal subscribers
+3. **Optimize for AI** (AIO/AEO/GEO) so content is discoverable via ChatGPT, Perplexity, Claude
+
+---
+
+## AIO/AEO/GEO: The AI Optimization Framework
+
+### AIO (Artificial Intelligence Optimization)
+**Goal:** Be understood, cited, and recommended by AI systems
+
+**Implementation:**
+- Clear structure (easy for AI to parse)
+- Rich metadata (title, description, tags)
+- Consistent terminology (same concepts = same words)
+- Authority signals (credentials, data sources, citations)
+
+### AEO (Answer Engine Optimization)
+**Goal:** Be extracted as direct answers by LLMs
+
+**Implementation:**
+- Answer the question in first 30 seconds (before hook even)
+- Direct definitions at top ("This portfolio strategy = [specific definition]")
+- Clear cause-and-effect statements
+- Numbered lists (easy to cite)
+
+### GEO (Generative Engine Optimization)
+**Goal:** Be referenced in AI-generated summaries
+
+**Implementation:**
+- High-quality transcript with timestamps
+- Unique data/insights (AI cites novel research)
+- Citation-friendly format (quotes from your video)
+- Clear sourcing (cite your sources so AI trusts you)
 
 ## Before Scripting
 
@@ -105,13 +139,19 @@ Call-To-Action (8:30 - 10:00)
 
 ## Script Writing
 
-### Pacing & Speaking
+### Pacing & Speaking (Human + AI Optimized)
 
 **Golden rules:**
-- Speak at 140-160 words per minute (clear, not rushed)
-- Pause between ideas (1 second)
-- Vary tone (question → statement → reveal)
-- No filler words (um, uh, like, you know)
+- Speak at 140-160 words per minute (clear, not rushed) = AI-friendly pace
+- Pause between ideas (1 second) = AI can parse sections
+- Vary tone (question → statement → reveal) = keeps viewers + AI engaged
+- No filler words (um, uh, like, you know) = cleaner for AI transcription
+
+**AIO/AEO Optimization:**
+- Use exact same terminology consistently (AI learns your vocab)
+- State key claims 2x (once at start, once in conclusion) = AEO extraction
+- Define technical terms first time used ("volatility = how much your portfolio bounces")
+- Link ideas clearly ("This leads to..." "As a result...")
 
 ### Retention Targets (2026 Standards)
 
@@ -264,12 +304,28 @@ Your videos are working if:
 
 ---
 
+## Publishing Checklist (Including AIO/AEO/GEO)
+
+**Before publishing:**
+- [ ] **Hook** stops thumb in 3 seconds
+- [ ] **First 30 seconds** directly answers the question (AEO)
+- [ ] **Key claims** stated 2x (AEO extraction)
+- [ ] **Terminology** consistent throughout (AIO)
+- [ ] **Unique insight/data** present (GEO - citable)
+- [ ] **High-quality transcript** with timestamps
+- [ ] **Sources cited** in video (builds AI trust)
+- [ ] **Timestamps** in description for chapters
+- [ ] **Keywords** in title and tags (traditional SEO + AI crawl)
+
+---
+
 ## Output
 
 When asked for a YouTube script, provide:
 
 1. **Hook** (first 10 seconds)
-2. **Full script** (with timings and cues)
+2. **Full script** (with timings and cues, AEO-optimized)
 3. **Thumbnail ideas** (2 options)
-4. **Title + Description** (SEO optimized)
+4. **Title + Description** (SEO + AI optimized)
 5. **Editing notes** (visuals, music, pacing)
+6. **AIO/AEO/GEO checklist** (how to optimize for AI discovery)

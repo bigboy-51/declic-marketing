@@ -126,6 +126,22 @@ Images: Alt text includes keywords
 
 ---
 
+## AIO/AEO/GEO: AI-Era Visibility (Beyond Google)
+
+Your blog must be discoverable across:
+- **Google** (traditional SEO)
+- **ChatGPT/Claude/Perplexity** (Answer Engines via AEO)
+- **YouTube/TikTok** (visual search + AI summaries)
+
+**Quick implementation:**
+- **AEO:** Answer question in first 100 words
+- **AIO:** Use consistent terminology, clear headers (H1 → H2 → H3)
+- **GEO:** Include unique data/insights that AI will cite
+
+See SEO/AIO skill for full strategy.
+
+---
+
 ## 2026 SEO Metrics to Track (Not Vanity Metrics)
 
 **Stop tracking:**
