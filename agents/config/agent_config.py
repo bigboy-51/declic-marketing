@@ -29,7 +29,13 @@ class AgentRole(str, Enum):
     THUMBNAILS = "thumbnails"
     LEAD_MAGNETS = "lead_magnets"
     CLOSER = "closer"
-    # Utility Agents
+    # Phase 3 Skill Agents
+    DESIGN = "design"
+    FUNNEL = "funnel"
+    # Phase 3 Utility Agents
+    METRICS = "metrics"
+    OPTIMIZATION = "optimization"
+    # Other Utility Agents
     COHERENCE = "coherence"
 
 # Agent timeout (seconds)
