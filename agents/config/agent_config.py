@@ -17,10 +17,19 @@ TEMPERATURE = 0.7
 
 # Agent roles
 class AgentRole(str, Enum):
+    # Orchestration
     ORCHESTRATION = "orchestration"
+    # Phase 1 Skill Agents
     COPYWRITING = "copywriting"
     BLOGGING = "blogging"
     YOUTUBE = "youtube"
+    # Phase 2 Skill Agents
+    BRANDING = "branding"
+    SEO_AIO = "seo_aio"
+    THUMBNAILS = "thumbnails"
+    LEAD_MAGNETS = "lead_magnets"
+    CLOSER = "closer"
+    # Utility Agents
     COHERENCE = "coherence"
 
 # Agent timeout (seconds)
