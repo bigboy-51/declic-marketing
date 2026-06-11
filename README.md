@@ -11,8 +11,9 @@ Built with **Karpathy-style pedagogy**: Think deeply, simplify ruthlessly, make 
 3. **Blogging** — Long-form content, SEO, authority
 4. **YouTube Script** — Video scripts, hooks, editing, AIO/AEO/GEO optimization
 5. **SEO/AIO** — AI-era visibility: Google + ChatGPT + Perplexity + Claude
-6. **Funnel** — Marketing funnel strategy, conversion optimization
-7. **Design** — Visual systems, design principles, assets
+6. **Thumbnails & Visual Assets** — High-CTR thumbnails (YouTube, social, blog), psychology-driven ✨
+7. **Funnel** — Marketing funnel strategy, conversion optimization
+8. **Design** — Visual systems, design principles, assets
 
 ## Getting Started
 
@@ -61,6 +62,7 @@ declic-marketing/
     ├── blogging/SKILL.md
     ├── youtube-script/SKILL.md
     ├── seo-aio/SKILL.md
+    ├── thumbnails/SKILL.md
     ├── funnel/SKILL.md
     └── design/SKILL.md
 ```

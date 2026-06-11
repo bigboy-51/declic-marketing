@@ -69,6 +69,7 @@ Each skill follows these principles:
 - **Blogging** — Long-form content, SEO, audience engagement
 - **YouTube Script** — Video scripts, editing strategy, hooks, AIO/AEO/GEO optimization
 - **SEO/AIO** — AI optimization (AIO/AEO/GEO), discoverable across Google + ChatGPT + LLMs
+- **Thumbnails & Visual Assets** — High-CTR thumbnails (YouTube, social media, blog), psychology-driven design ✨
 - **Funnel** — Marketing funnel strategy, conversion paths
 - **Design** — Visual direction, design systems, asset creation
 
@@ -118,6 +119,8 @@ These skills are informed by validated 2026 practices:
 
 **YouTube:** 65% retention with 3-second hooks, AIO/AEO/GEO for AI discovery, rewatch moments drive algorithm
 
+**Thumbnails:** Faces +30% CTR, high-contrast colors, simplicity (3 elements max), 90% of top videos use custom thumbnails
+
 **SEO/AIO:** AIO (AI understands), AEO (answers questions), GEO (citable by LLMs) across Google + ChatGPT
 
 **Design:** WCAG 2.2 compliance mandatory, accessibility-first, scalable component systems, dark mode required
@@ -130,22 +133,20 @@ These skills work together:
 
 1. **Branding** defines the voice → **Copywriting** executes it
 2. **Funnel** strategy defines journey → **YouTube/Blogging/SEO** fill awareness
-3. **SEO/AIO** ensures visibility across Google + AI systems → Supports all content
-4. **Design** system supports all → Consistent visuals everywhere
-5. **Funnel** metrics validate → All other skills contribute to conversion
+3. **Thumbnails & Visual Assets** support **YouTube** (CTR), **Blogging** (shares), **Social** (engagement)
+4. **SEO/AIO** ensures visibility across Google + AI systems → Supports all content
+5. **Design** system supports all → Consistent visuals everywhere
+6. **Funnel** metrics validate → All other skills contribute to conversion
 
-**AI-Era Visibility Chain:**
+**Thumbnails as Performance Lever:**
 ```
-Blogging (SEO/AIO) 
-  ↓ Answer questions directly (AEO)
-YouTube (AIO/AEO/GEO)
-  ↓ Be citable by ChatGPT/Claude (GEO)
-SEO/AIO Strategy
-  ↓ Govern all content structure
-Result: Visible across Google + ChatGPT + Perplexity + Claude
+Good thumbnail → YouTube CTR +6-8% → More views
+                → Blog CTR +30% → More shares
+                → Social shares +2x → More reach
+                → Funnel awareness ↑ → More conversions
 ```
 
-Test coherence: Could a customer recognize your brand across copywriting + design + video + blog + AI discovery?
+Test coherence: Could a customer recognize your brand across copywriting + design + video + blog + thumbnails?
 
 ---
 
