@@ -4,25 +4,25 @@ Marketing, branding, copywriting, and content skills for Declic Financier.
 
 Built with **Karpathy-style pedagogy**: Think deeply, simplify ruthlessly, make surgical changes, measure results, verify before responding.
 
-## Skills
+## Skills (12 Total)
 
+**Core Marketing:**
 1. **Copywriting** — High-converting sales copy, emails, ads
 2. **Branding** — Brand identity, tone, visual guidelines
 3. **Blogging** — Long-form content, SEO, authority
-4. **YouTube Script** — Video scripts, hooks, editing, AIO/AEO/GEO optimization
+4. **YouTube Script** — Video scripts, editing, AIO/AEO/GEO optimization
 5. **SEO/AIO** — AI-era visibility: Google + ChatGPT + Perplexity + Claude
-6. **Thumbnails & Visual Assets** — High-CTR thumbnails (YouTube, social, blog), psychology-driven ✨
-7. **Funnel** — Marketing funnel strategy, conversion optimization
-8. **Design** — Visual systems, design principles, assets
+6. **Design** — Visual systems, design principles, assets
 
-## Getting Started
+**Growth & Conversion:**
+7. **Thumbnails & Visual Assets** — High-CTR thumbnails (YouTube, social, blog), psychology-driven
+8. **Hooks** — Psychological openings across all formats (video, copy, email, blog) 🆕
+9. **Lead Magnets** — Quizzes, giveaways, webinars, calculators, ebooks (+40% conversion)
+10. **Closer** — Email sequences, call scripts, objection handling
+11. **Funnel** — Marketing funnel strategy, conversion optimization
 
-Each skill is a directory with a `SKILL.md` file containing:
-- **Purpose**: What the skill does
-- **Framework**: The approach (before/during/after)
-- **Quality checklist**: How to validate work
-- **Common mistakes**: What to avoid
-- **Success metrics**: How to measure
+**Strategy:**
+12. **Product Emergence** — Ikigai + JTBD validation, MVP definition, go-to-market (5-phase)
 
 ## Getting Started
 
@@ -47,9 +47,23 @@ Invoke a skill when its domain matches your task:
 → Returns: Design system, components, specs
 ```
 
-## Agent SDK
+## Agent SDK (Phase 1 MVP ✅)
 
-See `AGENTS.md` for the complete autonomous agent architecture that orchestrates these 8 skills into multi-step workflows. One request → Coordinated campaign with guaranteed brand coherence.
+**Status:** Fully implemented and tested  
+**Agents:** 5 (Orchestration + 3 Skill Agents + Coherence)  
+**Execution time:** ~60 seconds per campaign
+
+**Architecture:**
+```
+User Request → Orchestration Agent → Skill Agents → Coherence Check → Output
+```
+
+**Get started:**
+- **Visual Dashboard** (Recommended): `streamlit run dashboard.py` → http://localhost:8501
+- **CLI Demo**: `python main.py`
+- **Interactive Mode**: `python main.py interactive`
+
+See `AGENTS.md` for architecture, `AGENTS_IMPLEMENTATION.md` for Phase 1 details, `DASHBOARD.md` for UI guide.
 
 ## Principles
 
@@ -69,18 +83,28 @@ See `CLAUDE.md` for full details.
 declic-marketing/
 ├── CLAUDE.md (5 pillars, operating principles)
 ├── AGENTS.md (Agent SDK architecture)
+├── AGENTS_IMPLEMENTATION.md (Phase 1 MVP details)
+├── DASHBOARD.md (Visual interface guide)
 ├── README.md (this file)
-└── .claude/skills/
+├── main.py (CLI demo + interactive mode)
+├── dashboard.py (Streamlit visual interface)
+├── agents/ (Agent SDK implementation)
+│   ├── orchestration_agent.py
+│   ├── skill_agents/ (copywriting, blogging, youtube)
+│   └── utility_agents/ (coherence verification)
+└── .claude/skills/ (12 comprehensive frameworks)
     ├── copywriting/SKILL.md
     ├── branding/SKILL.md
     ├── blogging/SKILL.md
     ├── youtube-script/SKILL.md
     ├── seo-aio/SKILL.md
+    ├── design/SKILL.md
     ├── thumbnails/SKILL.md
-    ├── lead-magnets/SKILL.md ✨
-    ├── closer/SKILL.md ✨
+    ├── hooks/SKILL.md 🆕
+    ├── lead-magnets/SKILL.md
+    ├── closer/SKILL.md
     ├── funnel/SKILL.md
-    └── design/SKILL.md
+    └── product-emergence/SKILL.md
 ```
 
 ## Next: Agent SDK
