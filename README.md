@@ -68,7 +68,7 @@ See `CLAUDE.md` for full details.
 ```
 declic-marketing/
 ├── CLAUDE.md (5 pillars, operating principles)
-├── AGENTS.md (Agent SDK architecture) ✨
+├── AGENTS.md (Agent SDK architecture)
 ├── README.md (this file)
 └── .claude/skills/
     ├── copywriting/SKILL.md
@@ -77,6 +77,8 @@ declic-marketing/
     ├── youtube-script/SKILL.md
     ├── seo-aio/SKILL.md
     ├── thumbnails/SKILL.md
+    ├── lead-magnets/SKILL.md ✨
+    ├── closer/SKILL.md ✨
     ├── funnel/SKILL.md
     └── design/SKILL.md
 ```
